@@ -53,6 +53,7 @@ export default async function RootLayout({ children }: { children: ReactNode }) 
                             navigation={false}
                             editLink={false}
                             feedback={{ content: null }}
+                            lastUpdated={undefined}
                         >
                             <div key="layout-children">{children}</div>
                         </Layout>

@@ -6,6 +6,7 @@ const meta: MetaRecord = {
         type: 'page',
         theme: {
             layout: 'full',
+            timestamp: false,
         },
         display: 'hidden',
     },
@@ -14,10 +15,14 @@ const meta: MetaRecord = {
         type: 'page',
         theme: {
             layout: 'full',
+            timestamp: false,
         },
     },
     blogs: {
         display: 'hidden',
+        theme: {
+            timestamp: false,
+        },
     },
 } satisfies MetaRecord
 
